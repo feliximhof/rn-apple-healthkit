@@ -3,6 +3,8 @@ A React Native bridge module for interacting with Apple Healthkit data. Checkout
 
 ## Installation (React Native >=0.40)
 
+- test
+
 Install the [rn-apple-healthkit] package from npm:
 
 - Run `npm install rn-apple-healthkit --save`
