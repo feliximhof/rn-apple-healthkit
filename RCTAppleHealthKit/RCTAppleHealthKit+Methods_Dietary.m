@@ -367,6 +367,304 @@
                                                                     metadata:metadata];
         [mySet addObject:zinc];
     }
+    if (biotinValue < 0){
+        HKQuantitySample* biotin = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryBiotin]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:biotinValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:biotin];
+    }
+    if (caffeineValue < 0){
+        HKQuantitySample* caffeine = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCaffeine]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:caffeineValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+
+        [mySet addObject:caffeine];
+    }
+    if (calciumValue < 0){
+        HKQuantitySample* calcium = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCalcium]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:calciumValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:calcium];
+    }
+    if (carbohydratesValue < 0){
+        HKQuantitySample* carbohydrates = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCarbohydrates]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:carbohydratesValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:carbohydrates];
+    }
+    if (chlorideValue < 0){
+        HKQuantitySample* chloride = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryChloride]
+                                                                quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:chlorideValue]
+                                                                startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                                metadata:metadata];
+        [mySet addObject:chloride];
+    }
+    if (cholesterolValue < 0){
+        HKQuantitySample* cholesterol = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCholesterol]
+                                                                quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:cholesterolValue]
+                                                                startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                                metadata:metadata];
+        [mySet addObject:cholesterol];
+    }
+    if (copperValue < 0){
+        HKQuantitySample* copper = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCopper]
+                                                                quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:copperValue]
+                                                                startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                                metadata:metadata];
+        [mySet addObject:copper];
+    }
+    if (energyConsumedValue < 0){
+        HKQuantitySample* energyConsumed = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryEnergyConsumed]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit kilocalorieUnit] doubleValue:energyConsumedValue]
+                                                                startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                            metadata:metadata];
+        [mySet addObject:energyConsumed];
+    }
+    if (fatMonounsaturatedValue < 0){
+        HKQuantitySample* fatMonounsaturated = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFatMonounsaturated]
+                                                                quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:fatMonounsaturatedValue]
+                                                                startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                                metadata:metadata];
+        [mySet addObject:fatMonounsaturated];
+    }
+    if (fatPolyunsaturatedValue < 0){
+        HKQuantitySample* fatPolyunsaturated = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFatPolyunsaturated]
+                                                                quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:fatPolyunsaturatedValue]
+                                                                startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                                metadata:metadata];
+        [mySet addObject:fatPolyunsaturated];
+    }
+    if (fatSaturatedValue < 0){
+        HKQuantitySample* fatSaturated = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFatSaturated]
+                                                                quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:fatSaturatedValue]
+                                                                startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                                metadata:metadata];
+        [mySet addObject:fatSaturated];
+    }
+    if (fatTotalValue < 0){
+        HKQuantitySample* fatTotal = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFatTotal]
+                                                                quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:fatTotalValue]
+                                                                startDate:timeFoodWasConsumed
+                                                                    endDate:timeFoodWasConsumed
+                                                                metadata:metadata];
+        [mySet addObject:fatTotal];
+    }
+    if (fiberValue < 0){
+        HKQuantitySample* fiber = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFiber]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:fiberValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:fiber];
+    }
+    if (folateValue < 0){
+        HKQuantitySample* folate = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFolate]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:folateValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:folate];
+    }
+    if (iodineValue < 0){
+        HKQuantitySample* iodine = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryIodine]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:iodineValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:iodine];
+    }
+    if (ironValue < 0){
+        HKQuantitySample* iron = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryIron]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:ironValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:iron];
+    }
+    if (magnesiumValue < 0){
+        HKQuantitySample* magnesium = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryMagnesium]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:magnesiumValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:magnesium];
+    }
+    if (manganeseValue < 0){
+        HKQuantitySample* manganese = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryManganese]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:manganeseValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:manganese];
+    }
+    if (molybdenumValue < 0){
+        HKQuantitySample* molybdenum = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryMolybdenum]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:molybdenumValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:molybdenum];
+    }
+    if (niacinValue < 0){
+        HKQuantitySample* niacin = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryNiacin]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:niacinValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:niacin];
+    }
+    if (pantothenicAcidValue < 0){
+        HKQuantitySample* pantothenicAcid = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryPantothenicAcid]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:pantothenicAcidValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:pantothenicAcid];
+    }
+    if (phosphorusValue < 0){
+        HKQuantitySample* phosphorus = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryPhosphorus]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:phosphorusValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:phosphorus];
+    }
+    if (potassiumValue < 0){
+        HKQuantitySample* potassium = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryPotassium]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:potassiumValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:potassium];
+    }
+    if (proteinValue < 0){
+        HKQuantitySample* protein = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryProtein]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:proteinValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:protein];
+    }
+    if (riboflavinValue < 0){
+        HKQuantitySample* riboflavin = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryRiboflavin]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:riboflavinValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:riboflavin];
+    }
+    if (seleniumValue < 0){
+        HKQuantitySample* selenium = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietarySelenium]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:seleniumValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:selenium];
+    }
+    if (sodiumValue < 0){
+        HKQuantitySample* sodium = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietarySodium]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:sodiumValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:sodium];
+    }
+    if (sugarValue < 0){
+        HKQuantitySample* sugar = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietarySugar]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:sugarValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:sugar];
+    }
+    if (thiaminValue < 0){
+        HKQuantitySample* thiamin = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryThiamin]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:thiaminValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:thiamin];
+    }
+    if (vitaminAValue < 0){
+        HKQuantitySample* vitaminA = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminA]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:vitaminAValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:vitaminA];
+    }
+    if (vitaminB12Value < 0){
+        HKQuantitySample* vitaminB12 = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminB12]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:vitaminB12Value]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:vitaminB12];
+    }
+    if (vitaminB6Value < 0){
+        HKQuantitySample* vitaminB6 = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminB6]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:vitaminB6Value]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:vitaminB6];
+    }
+    if (vitaminCValue < 0){
+        HKQuantitySample* vitaminC = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminC]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:vitaminCValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:vitaminC];
+    }
+    if (vitaminDValue < 0){
+        HKQuantitySample* vitaminD = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminD]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:vitaminDValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:vitaminD];
+    }
+    if (vitaminEValue < 0){
+        HKQuantitySample* vitaminE = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminE]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:vitaminEValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+    
+        [mySet addObject:vitaminE];
+    }
+    if (vitaminKValue < 0){
+        HKQuantitySample* vitaminK = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminK]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:vitaminKValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:vitaminK];
+    }
+    if (zincValue < 0){
+        HKQuantitySample* zinc = [HKQuantitySample quantitySampleWithType:[HKQuantityType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryZinc]
+                                                                    quantity:[HKQuantity quantityWithUnit:[HKUnit gramUnit] doubleValue:zincValue]
+                                                                    startDate:timeFoodWasConsumed
+                                                                        endDate:timeFoodWasConsumed
+                                                                    metadata:metadata];
+        [mySet addObject:zinc];
+    }
     // Combine nutritional data into a food correlation //
     HKCorrelation* food = [HKCorrelation correlationWithType:[HKCorrelationType correlationTypeForIdentifier:HKCorrelationTypeIdentifierFood]
                                                             startDate:timeFoodWasConsumed
